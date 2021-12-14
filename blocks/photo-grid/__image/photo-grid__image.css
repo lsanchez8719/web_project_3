@@ -1,0 +1,8 @@
+.photo-grid__image {
+  max-width: 352px;
+  max-height: auto;
+  width: 100%;
+  list-style: none;
+}
+
+/*recheck*/

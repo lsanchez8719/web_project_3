@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 34px auto 90px auto;
+  max-width: 270px;
+  min-height: 70px;
+  /*recheck*/
+}
+@media screen and (max-width: 320px) {
+  .logo{
+    min-height: 51.85px;
+    max-width: 200px;
+    margin: 20px auto 51.15px auto;
+}
+}
