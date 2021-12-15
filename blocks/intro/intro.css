@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 784px calc(984px- 784px);
   margin: 0 auto 118px;
-  max-width: 984px;
+  max-width: 785px;
+  width: 100%;
   text-align: left;
 }
 

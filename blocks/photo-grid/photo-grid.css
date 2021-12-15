@@ -1,9 +1,9 @@
-.photo-grid{
-  display:flex;
+.photo-grid {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  list-style: none; /* recheck*/
   margin: 0 auto;
   gap: 16px;
+  max-width: 1184px;
+  list-style: none;
+  justify-content: center;
 }
-

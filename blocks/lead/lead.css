@@ -1,8 +1,10 @@
 .lead {
   max-width: 984px;
-  text-align: center;
-  margin: 0;
-  /*recheck margin*/
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px auto 64px;
 }
 
 @media screen and (max-width: 768px) {

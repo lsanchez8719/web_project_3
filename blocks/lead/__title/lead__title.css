@@ -6,5 +6,25 @@
   max-width: 793px;
   font-size: 96px;
   text-align: center;
-  /*recheck*/
+  margin: 91px auto 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+    text-align: center;
+    margin: 91px auto 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
+    text-align: center;
+    margin: 50.89px 16px 16px;
+  }
 }
