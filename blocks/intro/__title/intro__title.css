@@ -5,7 +5,7 @@
   font-size: 54px;
   line-height: 58px;
   color: #FFFFFF;
-  margin: 0 auto 40px auto;
+  margin: 92px auto 40px auto;
   grid-column: 1;
 }
 
@@ -13,7 +13,7 @@
 @media screen and (max-width: 768PX) {
   .intro__title {
     max-width: 720px;
-    margin: 0 24px 36px;
+    margin: 88px 24px 36px;
   }
 }
 
@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 320px) {
   .intro__title {
-    font-family: Inter;
     font-size: 32px;
     font-style: normal;
     line-height: 35px;

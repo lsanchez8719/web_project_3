@@ -1,0 +1,9 @@
+.intro__text{
+  max-width: 720px;
+  grid-column: 1;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 24px;
+  margin: 40px 24px 10px;
+  
+}
