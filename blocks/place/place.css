@@ -1,0 +1,11 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content min-content 1fr;
+  gap: 48px 40px;
+  grid-template-areas:
+  "location url-heading"
+  "image paragraph"
+  "button button";
+  margin: 92px auto 80px;
+}

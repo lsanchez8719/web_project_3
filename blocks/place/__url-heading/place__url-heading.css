@@ -1,0 +1,12 @@
+.place__url-heading{
+grid-area: url-heading;
+color: #aaaaaa;
+max-width: 50px;
+max-height: 15px;
+margin: 0 0 8px;
+font-family: 'inter';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+}
