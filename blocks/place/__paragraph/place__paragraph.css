@@ -1,5 +1,5 @@
 .place__paragraph {
-  grid-area: paragraph;
+  grid-area: description;
   font-family: 'Inter';
   font-style: normal;
   font-size: 18px;

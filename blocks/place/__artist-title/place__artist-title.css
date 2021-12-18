@@ -1,5 +1,5 @@
-.place__url-heading{
-grid-area: url-heading;
+.place__artist-title{
+grid-area: website;
 color: #aaaaaa;
 max-width: 50px;
 max-height: 15px;

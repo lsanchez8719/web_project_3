@@ -1,0 +1,16 @@
+.place__image-wrapper {
+  grid-area: media;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__image-wrapper {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image-wrapper {
+    max-width: 320px;
+  }
+}

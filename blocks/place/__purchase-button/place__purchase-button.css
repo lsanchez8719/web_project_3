@@ -1,37 +1,39 @@
 .place__purchase-button {
-  grid-area: button;
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 22px;
-  border-style: none;
-  color: #fff;
-  border-radius: 4px;
-  padding: 13px 20px;
-  margin: 48px auto 80px;
+font-family: "Inter", Arial, sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   background-color: #0278FE;
+  border-radius: 4px;
   padding: 13px 20px;
   text-align: center;
   box-sizing: border-box;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.21;
+  max-width: 288px;
+  max-height: 48px;
+  margin: 0px;
+  padding: 13px 20px;
+  transition: background-color 0.3s;
 }
 
 .place__purchase-button:hover {
   cursor: pointer;
-  background-color: #0063d3;
+  background-color: #0665d1;
 }
 
 @media screen and (max-width: 320px) {
   .place__purchase-button {
     margin: 30px auto;
-    min-width: 288px;
-    min-height: 48px;
+    max-width: 288px;
+    max-height: 48px;
   }
 }
 
 @media screen and (max-width:288px) {
-  .place__purchase-button{
+  .place__purchase-button {
     max-width: 288px;
     margin: 30px auto;
   }
-  }
+}

@@ -1,5 +1,5 @@
 .place__link {
-  grid-area: url-heading;
+  grid-area: link;
   max-width: 456px;
   font-family: Inter;
   font-style: normal;
