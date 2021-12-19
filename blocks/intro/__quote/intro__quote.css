@@ -3,30 +3,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 35px;
   max-width: 720px;
-  height: 102px;
-  margin: 0 0 0 148px;
-}
-
-@media screen and (max-width: 768px) {
-  .intro__subtitle {
-    margin: 10px auto 0px;
-    width: 720px;
-  }
-}
-
-
-@media screen and (max-width: 540px) {
-  .intro__subtitle {
-    margin: 10px auto 0px;
-    max-width: 500px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .intro__subtitle {
-    margin: 10px auto 0px;
-    max-width: 369px;
-  }
+  margin: 0 10px;
 }

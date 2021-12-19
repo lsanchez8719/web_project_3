@@ -3,10 +3,10 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
+  max-width: 785px;
   line-height: 58px;
   color: #FFFFFF;
-  margin: 92px auto 40px auto;
-  grid-column: 1;
+  
 }
 
 
@@ -14,7 +14,7 @@
   .intro__title {
     max-width: 720px;
     margin: 88px 24px 36px;
-  }
+  }  
 }
 
 @media screen and (max-width:540px) {
@@ -22,7 +22,7 @@
     max-width: 375px;
     font-size: 45px;
     line-height: 1.1;
-    margin: 88px 16px 30px;
+    margin: 88px 16px 40px;
   }
 }
 
