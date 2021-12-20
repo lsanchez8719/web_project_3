@@ -8,13 +8,10 @@
   margin: 0 auto;
 }
 
-/*recheck*/
-
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     max-width: 720px;
     text-align: center;
-
   }
 }
 
@@ -37,6 +34,7 @@
     margin: 32px 0 0;
   }
 }
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
