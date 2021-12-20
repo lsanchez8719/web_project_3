@@ -1,5 +1,4 @@
 .lead__title {
-  margin: auto;
   line-height: 100px;
   font-weight: 900;
   margin-bottom: 32px;
@@ -14,7 +13,6 @@
     max-width: 720px;
     text-align: center;
     font-size: 72px;
-
     margin: 0 0 0;
   }
 }
@@ -41,7 +39,6 @@
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
-    /* or 110% */
     text-align: center;
     margin: 0 0 0;
   }

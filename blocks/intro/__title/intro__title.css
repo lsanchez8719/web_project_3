@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 768PX) {
+@media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
     margin: 88px 24px 36px;
