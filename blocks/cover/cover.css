@@ -3,20 +3,20 @@
   min-height: 740px;
   max-width: 1184px;
   margin: 92px auto 0;
-  background: url("/images/cover__background.png") no-repeat center;
+  background: url("../images/cover__background.png") no-repeat center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  opacity: 1;
+  opacity: 2;
   transition: opacity 1.5s;
 }
 
 .cover:hover {
   opacity: 30%;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (max-width: 768px) {
