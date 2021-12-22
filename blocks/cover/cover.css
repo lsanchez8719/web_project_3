@@ -3,20 +3,19 @@
   min-height: 740px;
   max-width: 1184px;
   margin: 92px auto 0;
-  background: url("../images/cover__background.png") no-repeat center;
+  background: url("../../images/cover__background.png") no-repeat center;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  opacity: 2;
-  transition: opacity 1.5s;
+  padding: 0;
 }
 
-.cover:hover {
-  opacity: 30%;
-  z-index: 2;
+.cover:hover .cover__overlay {
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 768px) {
