@@ -2,7 +2,13 @@
   box-sizing: border-box;
   width: 248px;
   height: 48px;
-  margin: 48px 24px 129px 0;
+  margin: 32px auto 243px;
+}
+
+@media screen and (max-width) {
+  .button_place_places {
+    margin: 32px auto 246px;
+  }
 }
 
 @media screen and (max-width: 590px) {

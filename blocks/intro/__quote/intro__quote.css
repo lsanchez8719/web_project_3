@@ -7,3 +7,16 @@
   max-width: 720px;
   margin: 0 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__quote {
+    margin: 40px 24px 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__quote {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
