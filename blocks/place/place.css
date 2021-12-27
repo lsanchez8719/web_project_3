@@ -1,6 +1,6 @@
 .place {
   box-sizing: border-box;
-  margin-top: 80px;
+  margin-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: min-content min-content 1fr;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    margin-top: 72px;
+    margin-bottom: 124px;
     gap: 46px 28px;
   }
 }

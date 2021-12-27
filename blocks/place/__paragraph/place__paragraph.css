@@ -9,7 +9,7 @@
   max-width: 484px;
 }
 
-.place__paragraph:first-of-type {
+.place__paragraph:last-of-type {
   margin: 0;
 }
 

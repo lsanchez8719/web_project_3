@@ -8,10 +8,11 @@
   color: #FFFFFF;
 }
 
+
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
-    margin: 88px 24px 36px;
+    margin: 88px 0 36px;
   }
 }
 
@@ -19,7 +20,7 @@
   .intro__title {
     max-width: 375px;
     font-size: 45px;
-    margin: 88px 16px 40px;
+    margin: 88px 0 40px;
   }
 }
 
@@ -28,7 +29,7 @@
     max-width: 340px;
     font-size: 36px;
     line-height: 1.1;
-    margin: 64px 16px 40px;
+    margin: 64px 0 40px;
   }
 }
 
