@@ -1,27 +1,22 @@
 .button_place_places {
   box-sizing: border-box;
-  align-items: center;
+  align-items: left;
   width: 248px;
   height: 48px;
-  margin: 32px auto 243px;
+  margin: 0px auto 80px;
 }
 
-@media screen and (max-width) {
-  .button_place_places {
-    margin: 32px auto 246px;
-  }
-}
 
 @media screen and (max-width: 590px) {
   .button_place_places {
-    width: 288px;
     padding: 13px 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .button_place_places {
-    margin: 30px 16px 0px 16px;
-    padding: 13px 40px 13px 40px;
-  }
+    margin: 0px 16px;
+    padding: 13px 40px;
+    max-width: unset;
+    
 }
