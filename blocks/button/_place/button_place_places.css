@@ -1,5 +1,6 @@
 .button_place_places {
   box-sizing: border-box;
+  align-items: center;
   width: 248px;
   height: 48px;
   margin: 32px auto 243px;
