@@ -8,7 +8,6 @@
   color: #FFFFFF;
 }
 
-
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
