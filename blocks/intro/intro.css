@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0 auto 90px;
+    margin: 0 auto 0;
     justify-content: center;
     align-items: center;
   }
