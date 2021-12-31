@@ -5,7 +5,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: min-content min-content 1fr;
   gap: 48px 40px;
-
   grid-template-areas:
     "title website"
     "media description"
@@ -14,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    margin-bottom: 124px;
+    margin-bottom: 72px;
     gap: 46px 28px;
   }
 }
@@ -22,7 +21,7 @@
 @media screen and (max-width: 560px) {
   .place {
     gap: 30px 0;
-    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
   }

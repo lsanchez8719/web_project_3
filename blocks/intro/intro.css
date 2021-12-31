@@ -1,21 +1,19 @@
 .intro {
   font-family: "Inter", "Arial", sans-serif;
   max-width: 984px;
-  margin: 0 auto 90px;
+  margin: 0 auto 118px;
 }
 
-/* According to the brief distance beetween sections is 90px*/
-/* if this is incorrect let me know  what did i missed Thanks*/
-
-@media screen and (max-width:984px) {
+/* I had to add this 24px margin it looks better and more similar  to the brief */
+@media screen and (max-width: 1024px) {
   .intro {
-    margin: 0 auto 90px ;
+    margin: 0 24px 90px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0 auto;
+    margin: 0 24px;
     margin-bottom: 90px;
     justify-content: center;
     align-items: center;
