@@ -24,4 +24,7 @@ All images were directly exported from the Figma design and were optimized with 
   
 Thanks,
 **Luis Sanchez**
+ 
+ To see the project click on the 
+[Link](https://lsanchez8719.github.io/web_project_3/)
 
