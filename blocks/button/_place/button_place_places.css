@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 590px) {
   .button_place_places {
-    margin: 0 0;
+    margin: 0 auto;
     padding: 13px 20px;
   }
 }
